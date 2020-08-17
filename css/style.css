@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+}
+h1, h2{
+    color: #66BFBF;
+}
+h3, a{
+    color: #11999E;
+}
+h1{
+    margin: 50px auto 0px auto;
+    font-size: 500%;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+h2{
+ font-family: 'Monserrat', sans-serif;
+ font-size: 2.5rem;
+ font-weight: normal;
+ margin: 0 auto 0 auto;
+}
+h3{
+    font-family: 'Monserrat' sans-serif;
+}
+p{
+    margin: 40px auto;
+    font-weight: 200;
+}
+hr{
+    border: dotted 7px #c4e2e2;
+    border-bottom: none;
+    width: 4%;
+}
+.head-section{
+    background-color: #e4f9ff;
+    height: 100vh;
+}
+.head-section .mountain{
+    position: relative;
+    top: -20px;
+    width: 45%;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    left: 200px;
+}
+.middle-container .profile img{
+    width: 20%;
+    border-radius: 50%;
+    margin:60px auto 0px auto;
+}
+.middle-container h2{
+    margin-top: 40px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row img{
+    width: 25%;
+}
+.skill-row .computer{
+    float: left;
+    margin-right: 30px;
+}
+.skill-row .chillies{
+    float: right;
+    margin-left: 30px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #66BFBF;
+    border-radius: 8px;
+    text-decoration: none;
+    margin:40px auto 80px;
+    color: #fff;
+
+}
+.contact-me {
+    width: 40%;
+    margin: auto;
+}
+.skills h2,
+.contact-me h2 {
+    margin: 60px auto;
+}
+
+.contact-me p{
+    line-height: 2;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding:15px;
+}
+.bottom-container a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 30px 20px 0px;
+    color: #539696;
+}
+.bottom-container a:hover{
+    color: #fff;
+}
+.bottom-container p{
+    margin: 20px auto 30px;
+    font-size: 0.75rem;
+    color: #fff;
+}
+/* .description-comp{
+    clear: left;
+} It is like the anti-float for an element*/
+
+
+/*.middle-container, .bottom-container{
+    height: 200px;
+    width: 200px;
+}
+.middle-container{
+    background-color: blueviolet;
+    border: 20px solid;
+    margin-left: 260px; /* El margen se añade desde el borde o padding que tengas
+}
+.bottom-container{
+    background-color: chartreuse;
+    border: 10px solid;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}*/
+/* VISIBILITY OR DISPLAY (HIDDEN OR NONE)*/
